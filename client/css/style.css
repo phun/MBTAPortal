@@ -1,0 +1,51 @@
+@font-face {
+    font-family: DIN-Alternate-Black;
+    src: url('fonts/DIN Alternate Black.ttf');
+    font-weight:400;
+}
+
+@font-face {
+    font-family: DIN-Light;
+    src: url('fonts/DIN Light.ttf');
+}
+
+body {
+	font-family: DIN-Light, Helvetica, sans-serif;
+}
+
+p {
+	font-size: 2em;
+}
+
+h1.title-portal {
+	font-family: DIN-Alternate-Black;
+	font-size: 14em;
+	text-transform: uppercase;
+}
+
+h1.title-hi {
+	font-family: DIN-Alternate-Black;
+	font-size: 30em;
+	text-transform: uppercase;
+	margin-bottom: -75px;
+}
+
+h2.title-loading {
+	font-family: DIN-Alternate-Black;
+	font-size: 3em;
+	text-transform: uppercase;	
+}
+
+.screen-loading, .screen-welcome {
+	text-align: center;
+}
+
+.section-sponsor {
+	display: none;
+}
+
+.sponsor-space {
+	margin-top: 50px;
+	background: #EEEEEE;
+	padding: 150px 0px;
+}
