@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Welcome to the MBTA Portal</title>
+	<meta name="description" content="MBTA Portal">
+  	<meta name="author" content="Phu Nguyen &amp; Ulises Reyes">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/handlebars-v1.1.2.js"></script>
+</head>
+
+<body>
+	<div id="logo">
+		<div class="logo-holder">
+			<h1 class="loading-container">P<div id="portal-spinner"></div>RTAL</h1>
+		</div>
+		<p class="loading-text">Loading...</p>
+		<p class="tap">Tap Your Charlie Card to Begin!</p>
+	</div>
+
+	<div id="welcome">
+		<h1 class="hello">HI!</h1>
+		<p class="newhere">YOU MUST BE NEW HERE...</p>
+		<p class="setup">SETTING UP YOUR PORTAL ACCOUNT IS EASY</p>
+		<p class="setup">JUST FOLLOW THE UPCOMING INSTRUCTIONS</p>
+	</div>
+
+	<div id="login-container" class="clearfix">
+		<div id="player-1" class="login-space"></div>
+		<div id="player-2" class="login-space"></div>
+		<div id="player-3" class="login-space"></div>
+		<div id="player-4" class="login-space"></div>
+	</div>
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+	<script id="empty-player-template" type="text/x-handlebars-template">
+		<div class="logged-out">
+			<h2 class="press-button">Tap Charlie Card to Join Game!</h2>
+		</div>
+	</script>
+
+	<script id="new-account" type="text/x-handlebars-template">
+		<div class="account-screen">
+			<div class="skip-container"><h3 class="skip-button selected">SKIP</h3></div>
+			<div class="avatar-space"></div>
+			<div class="take-photo"><h3 class="selected">TAKE PHOTO</h3></div>
+			<div class="retake-photo"><h3 class="selected">RETAKE PHOTO</h3></div>
+			<div class="or-choose"><h4>OR CHOOSE ONE OF THE FOLLOWING</h4></div>
+
+			<div class="avatar-container">
+
+				<div class="r1">
+					<div class="c1"></div>
+					<div class="c2"></div>
+					<div class="c3"></div>
+					<div class="c4"></div>
+				</div>
+
+				<div class="r2">
+					<div class="c1"></div>
+					<div class="c2 selected"></div>
+					<div class="c3"></div>
+					<div class="c4"></div>
+				</div>
+
+				<div class="r3">
+					<div class="c1"></div>
+					<div class="c2"></div>
+					<div class="c3"></div>
+					<div class="c4"></div>
+				</div>
+
+				<div class="r4">
+					<div class="c1"></div>
+					<div class="c2"></div>
+					<div class="c3"></div>
+					<div class="c4"></div>
+				</div>
+
+			</div>
+		</div>
+	</script>
+
+</body>
+</html>
