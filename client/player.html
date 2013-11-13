@@ -12,8 +12,29 @@
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
   <script src="js/handlebars-v1.1.0.js"></script>
+  <script>
+    $(document).ready(function() {
+    	$("#iframe-game").focus();
+    });
+  </script>
 </head>
 <body>
-	<iframe src="melonJS/examples/platformer/" width="800" height="600"></iframe>
+	<div class="main container">
+		<div class="row">
+			<h3 class="title-waiting">Waiting for players...</h3>
+		</div>
+		<div class="row">
+			<div class="col-md-3">	
+				<ul class="players-list">
+					<li>Phu Nguyen</li>
+					<li>Ulises Reyes</li>
+					<li>Jason Lipshin</li>
+				<ul>
+			</div>
+			<div class="col-md-9">
+				<iframe id="iframe-game" src="melonJS/examples/platformer/" width="800" height="600"></iframe>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

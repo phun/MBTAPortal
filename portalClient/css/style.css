@@ -177,7 +177,7 @@ div.avatar-container div{
 	padding: 0;
 }
 
-div.avatar-container div div{
+div.avatar-container .avatar {
 	height: 96%;
 	width: 24%;
 	background-color: gray;
@@ -247,7 +247,7 @@ div.avatar-container div div{
 	text-align: center;
 }
 
-.avatar-container div div.selected{
+.avatar-container .avatar.selected{
 	border:.5em solid black;
 	box-sizing: border-box;
 }

@@ -35,6 +35,9 @@ function showWelcome(element) {
 	$(element).html(template());
 	$(".screen-welcome").hide().fadeIn();
 	keepCentered($(".screen-loading"));
+	setTimeout(function() {
+		window.location.href = "player.html";
+	}, 5000);
 }
 
 $(document).ready(function() {

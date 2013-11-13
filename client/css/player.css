@@ -1,0 +1,30 @@
+@font-face {
+    font-family: DIN-Alternate-Black;
+    src: url('fonts/DIN Alternate Black.ttf');
+    font-weight:400;
+}
+
+h3.title-waiting {
+	font-family: DIN-Alternate-Black;
+	font-size: 2em;
+	text-transform: uppercase;	
+}
+
+ul.players-list {
+	list-style: none;
+	padding:0;
+  margin:0;
+}
+
+ul.players-list li {
+	font-family: DIN-Alternate-Black;
+	font-size: 2em;
+	text-transform: uppercase;	
+	padding-left: 1em; 
+  text-indent: -.7em;
+}
+
+ul.players-list li:before {
+    content: "• ";
+    color: red;
+}
